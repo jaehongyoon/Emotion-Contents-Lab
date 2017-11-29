@@ -1,0 +1,37 @@
+﻿빌드 시작: 2015-07-13 오후 2:40:50
+     1>2 노드의 "C:\Users\Server\Desktop\NeuroSky\NeuroSky_Dll_Call\NeuroSky_Dll_Call\NeuroSky_Dll_Call.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\NeuroSky_Dll_Call.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D NEUROSKY_DLL_CALL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /fp:except /Zc:wchar_t /Zc:forScope /GR /openmp- /Yc"StdAfx.h" /Fp"Debug\NeuroSky_Dll_Call.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt /FAu stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D NEUROSKY_DLL_CALL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /fp:except /Zc:wchar_t /Zc:forScope /GR /openmp- /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt /FAu dllmain.cpp
+         dllmain.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D NEUROSKY_DLL_CALL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /fp:except /Zc:wchar_t /Zc:forScope /GR /openmp- /Yu"StdAfx.h" /Fp"Debug\NeuroSky_Dll_Call.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt /FAu NeuroSky_Dll_Call.cpp
+         NeuroSky_Dll_Call.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\NeuroSky_Dll_Call.dll.embed.manifest.res" Debug\NeuroSky_Dll_Call_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Server\Desktop\NeuroSky\NeuroSky_Dll_Call\Debug\NeuroSky_Dll_Call.dll" /INCREMENTAL /NOLOGO C:\Users\Server\Desktop\NeuroSky\NeuroSky_Dll_Call\\thinkgear.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\NeuroSky_Dll_Call.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Server\Desktop\NeuroSky\NeuroSky_Dll_Call\Debug\NeuroSky_Dll_Call.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:"C:\Users\Server\Desktop\NeuroSky\NeuroSky_Dll_Call\Debug\NeuroSky_Dll_Call.lib" /MACHINE:X86 /DLL Debug\NeuroSky_Dll_Call.dll.embed.manifest.res
+         Debug\dllmain.obj
+         Debug\NeuroSky_Dll_Call.obj
+         Debug\stdafx.obj
+            C:\Users\Server\Desktop\NeuroSky\NeuroSky_Dll_Call\Debug\NeuroSky_Dll_Call.lib 라이브러리 및 C:\Users\Server\Desktop\NeuroSky\NeuroSky_Dll_Call\Debug\NeuroSky_Dll_Call.exp 개체를 생성하고 있습니다.
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\NeuroSky_Dll_Call.dll.embed.manifest" /manifest Debug\NeuroSky_Dll_Call.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\NeuroSky_Dll_Call.dll.embed.manifest.res" Debug\NeuroSky_Dll_Call_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Server\Desktop\NeuroSky\NeuroSky_Dll_Call\Debug\NeuroSky_Dll_Call.dll" /INCREMENTAL /NOLOGO C:\Users\Server\Desktop\NeuroSky\NeuroSky_Dll_Call\\thinkgear.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\NeuroSky_Dll_Call.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Server\Desktop\NeuroSky\NeuroSky_Dll_Call\Debug\NeuroSky_Dll_Call.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:"C:\Users\Server\Desktop\NeuroSky\NeuroSky_Dll_Call\Debug\NeuroSky_Dll_Call.lib" /MACHINE:X86 /DLL Debug\NeuroSky_Dll_Call.dll.embed.manifest.res
+         Debug\dllmain.obj
+         Debug\NeuroSky_Dll_Call.obj
+         Debug\stdafx.obj
+            C:\Users\Server\Desktop\NeuroSky\NeuroSky_Dll_Call\Debug\NeuroSky_Dll_Call.lib 라이브러리 및 C:\Users\Server\Desktop\NeuroSky\NeuroSky_Dll_Call\Debug\NeuroSky_Dll_Call.exp 개체를 생성하고 있습니다.
+         NeuroSky_Dll_Call.vcxproj -> C:\Users\Server\Desktop\NeuroSky\NeuroSky_Dll_Call\Debug\NeuroSky_Dll_Call.dll
+       FinalizeBuildStatus:
+         "Debug\NeuroSky_Dll_Call.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\NeuroSky_Dll_Call.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Users\Server\Desktop\NeuroSky\NeuroSky_Dll_Call\NeuroSky_Dll_Call\NeuroSky_Dll_Call.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:01.37
